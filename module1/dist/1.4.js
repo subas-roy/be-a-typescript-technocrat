@@ -15,7 +15,8 @@ d = 123;
 // Array
 var friends = ['rachel', 'monika'];
 var eligibleRollList = [1, 2, 3];
-eligibleRollList.push('dd');
+eligibleRollList.push(4);
 var coordinates = [1, 5];
+// tuple
 var ageName = [29, 'Mr X', true];
 ageName[0] = 12;

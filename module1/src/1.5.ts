@@ -14,4 +14,4 @@ const user : {
 }
 
 
-user.company = 'fnm'
+user.company = "fn"

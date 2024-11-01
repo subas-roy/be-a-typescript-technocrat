@@ -21,7 +21,7 @@ let friends : string[] = ['rachel', 'monika']
 
 let eligibleRollList : number[] = [1,2,3]
 
-eligibleRollList.push('dd')
+eligibleRollList.push(4)
 
 let coordinates : [number, number] = [1, 5]
 
