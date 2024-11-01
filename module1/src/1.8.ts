@@ -12,7 +12,7 @@
     address: 'Dhaka'
   }
 
-  const { name: { firstName }, contactNo } = user;
+  const { name: { firstName:fname }, contactNo } = user;
 
   // array destructuring
   const myFriends = ['Chandler', 'Joy', 'Monika', 'Phoebe', 'Ele']
