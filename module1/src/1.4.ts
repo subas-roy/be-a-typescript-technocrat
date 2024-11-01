@@ -1,31 +1,36 @@
-// Basic Data Type
+{
 
-//tring
-let firstName: string = 'subas'
-// number
-let roll : number = 123
-// boolean
-let isAdmin: boolean = true
-// undefined
-let x : undefined = undefined
-// null
-let y : null = null
+  // Basic Data Type
 
-let d : number
+  //tring
+  let firstName: string = 'subas'
+  // number
+  let roll: number = 123
+  // boolean
+  let isAdmin: boolean = true
+  // undefined
+  let x: undefined = undefined
+  // null
+  let y: null = null
 
-d = 123
+  let d: number
 
-// Array
+  d = 123
 
-let friends : string[] = ['rachel', 'monika']
+  // Array
 
-let eligibleRollList : number[] = [1,2,3]
+  let friends: string[] = ['rachel', 'monika']
 
-eligibleRollList.push(4)
+  let eligibleRollList: number[] = [1, 2, 3]
 
-let coordinates : [number, number] = [1, 5]
+  eligibleRollList.push(4)
 
-// tuple
-let ageName : [number, string, boolean] = [29, 'Mr X', true]
+  let coordinates: [number, number] = [1, 5]
 
-ageName[0] = 12
+  // tuple
+  let ageName: [number, string, boolean] = [29, 'Mr X', true]
+
+  ageName[0] = 12
+
+  
+}

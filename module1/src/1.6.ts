@@ -1,26 +1,38 @@
-// Learing function
-// Normal function
-// Arrow function
+{
 
-function add(num1: number, num2: number): number {
-  return num1 + num2;
-}
+  // Learing function
+  // Normal function
+  // Arrow function
 
-add(2, 5)
-
-const addArrow = (num1: number, num2: number): number => num1 + num2;
-
-// object --> function --> method
-
-const poorUser = {
-  name: "Subas",
-  balance: 0,
-  addBalance(balance: number):string {
-    return `My new balance is: ${this.balance + balance}`;
+  function add(num1: number, num2: number): number {
+    return num1 + num2;
   }
+
+  add(2, 5)
+
+  const addArrow = (num1: number, num2: number): number => num1 + num2;
+
+  // object --> function --> method
+
+  const poorUser = {
+    name: "Subas",
+    balance: 0,
+    addBalance(balance: number): string {
+      return `My new balance is: ${this.balance + balance}`;
+    }
+  }
+
+  const arr: number[] = [1, 4, 10];
+
+  const newArray: number[] = arr.map((elem: number) => elem * elem);
+
+  // learn rest operator
+  const greetfriends = (...friends: string[]) => {
+    friends.forEach((friend: string) => console.log(`Hi ${friend}`);)
+  }
+
+  greetfriends("Abul", "kabul", "Babul")
+
+  
+
 }
-
-const arr: number[] = [1,4,10];
-
-const newArray: number[] = arr.map((elem: number) => elem * elem);
-
