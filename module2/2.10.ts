@@ -25,10 +25,10 @@
   // T => {height:string;width:number}
   // key => T["width"]
   type AreaString<T> = {
-    [key in keyof T]: string;
+    [key in keyof T]: T[key];
   };
 
-  const area1: AreaString<{ height: string; width: number }> => {
+  const area1: AreaString<{ height: string; width: number }> = {
     height: "100",
     width: 50
   }
