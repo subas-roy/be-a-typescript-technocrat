@@ -12,6 +12,6 @@
   const dog = new Animal("German Shepard", "dog", "ghew ghew")
   const cat = new Animal("Persian", "cat", "meaw meaw")
 
-  dog.
+  dog.makeSound
 
 }
