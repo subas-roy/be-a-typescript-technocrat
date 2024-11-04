@@ -1,5 +1,5 @@
 {
-  // type gurds
+  // type gurds 
 
   // typeof --> type gueard
 
