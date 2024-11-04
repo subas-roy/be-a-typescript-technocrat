@@ -32,11 +32,12 @@
   }
 
   const goriberAccount = new BankAccount(111, "Mr Gorib", 20)
-  // const balance = goriberAccount.getBalance() // call function
+  // goriberAccount.AddDeposit(100) // need to call function
+  // const balance = goriberAccount.getBalance() // need to call function
   // console.log(balance)
 
-  goriberAccount.deposit = 50;
-  const myBalance = goriberAccount.balance
+  goriberAccount.deposit = 50; // add using setter
+  const myBalance = goriberAccount.balance // get using getter
   console.log(myBalance)
 
 
