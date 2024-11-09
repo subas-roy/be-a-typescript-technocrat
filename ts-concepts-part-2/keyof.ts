@@ -12,16 +12,20 @@
 
   // Book[title] = "Typescript"
 
-  // function getBookProperty<T, K extends keyof T>(book: T, key: K): T[k] {
-  //   return book[key]
-  // }
-
-
-  function getBookProperty<T, K extends keyof T>(book: T, key: K): T[k] {
+  function getBookProperty<T, K extends keyof T>(book: T, key: K): T[K] {
     return book[key]
   }
 
+  const myBook: Book = {
+    title: "Learn TypeScript",
+    author: "Mir",
+    yearPublish: 2025
+  }
+
+  const author = getBookProperty(myBook, "author")
+
+  console.log(author)
 
 
-
+//
 }
